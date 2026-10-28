@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="p2Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E2DFD2"/>
+      <stop offset="100%" stop-color="#CFCAB8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#p2Grad)"/>
+  
+  <!-- Editorial Magazine Cover Mockup -->
+  <rect x="220" y="80" width="360" height="440" fill="#FFFFFF" filter="drop-shadow(0 10px 25px rgba(0,0,0,0.08))"/>
+  <rect x="260" y="120" width="280" height="180" fill="#111111"/>
+  
+  <text x="400" y="225" font-family="'Space Grotesk', sans-serif" font-size="34" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="4">PRISMA</text>
+  <text x="400" y="250" font-family="'Space Mono', monospace" font-size="10" fill="#E63B1E" text-anchor="middle" letter-spacing="3">ISSUE N° 04 / EDITORIAL</text>
+  
+  <!-- Text mock lines -->
+  <line x1="260" y1="340" x2="540" y2="340" stroke="#111111" stroke-width="2"/>
+  <line x1="260" y1="365" x2="480" y2="365" stroke="#777777" stroke-width="1.5"/>
+  <line x1="260" y1="385" x2="510" y2="385" stroke="#777777" stroke-width="1.5"/>
+  <line x1="260" y1="405" x2="430" y2="405" stroke="#777777" stroke-width="1.5"/>
+  
+  <!-- Corner Labels -->
+  <text x="50" y="50" font-family="'Space Mono', monospace" font-size="12" fill="#5F5E5A">FIG. 02 // PUBLICAÇÃO EDITORIAL</text>
+  <text x="750" y="50" font-family="'Space Mono', monospace" font-size="12" fill="#111111" text-anchor="end">2024</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700">
+  <defs>
+    <linearGradient id="p4Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8E2D8"/>
+      <stop offset="100%" stop-color="#D9CFBF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#p4Grad)"/>
+  
+  <!-- Packaging Design Showcase Mockup -->
+  <!-- Box 1 -->
+  <rect x="250" y="150" width="200" height="380" fill="#181818" filter="drop-shadow(0 15px 30px rgba(0,0,0,0.12))"/>
+  <rect x="270" y="190" width="160" height="18" fill="#E63B1E"/>
+  <text x="270" y="320" font-family="'Space Grotesk', sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">VANGUARD</text>
+  <text x="270" y="345" font-family="'Space Mono', monospace" font-size="10" fill="#999999">SPECIAL EDITION</text>
+  <line x1="270" y1="460" x2="410" y2="460" stroke="#FFFFFF" stroke-opacity="0.3" stroke-width="1"/>
+
+  <!-- Box 2 (white packaging) -->
+  <rect x="500" y="200" width="220" height="330" fill="#FFFFFF" filter="drop-shadow(0 15px 30px rgba(0,0,0,0.08))"/>
+  <circle cx="610" cy="310" r="35" fill="none" stroke="#111111" stroke-width="1.5"/>
+  <text x="610" y="316" font-family="'Space Mono', monospace" font-size="16" font-weight="700" fill="#111111" text-anchor="middle">VG</text>
+  <text x="610" y="410" font-family="'Space Grotesk', sans-serif" font-size="18" font-weight="600" fill="#111111" text-anchor="middle">N° 08 / ESSENCE</text>
+  
+  <!-- Poster in background -->
+  <rect x="770" y="130" width="220" height="400" fill="#D3D0C6" stroke="#111111" stroke-width="1"/>
+  <line x1="770" y1="230" x2="990" y2="230" stroke="#111111" stroke-width="1"/>
+  <text x="800" y="200" font-family="'Space Grotesk', sans-serif" font-size="28" font-weight="700" fill="#111111">04</text>
+  <text x="800" y="320" font-family="'Space Mono', monospace" font-size="12" fill="#5F5E5A">ART DIRECTION &amp; PACKAGING SYSTEM</text>
+
+  <!-- Editorial Top & Bottom Meta -->
+  <text x="80" y="70" font-family="'Space Mono', monospace" font-size="14" fill="#5F5E5A">PROJETO 04 // DIREÇÃO DE ARTE &amp; EMBALAGENS</text>
+  <text x="1120" y="70" font-family="'Space Mono', monospace" font-size="14" fill="#E63B1E" text-anchor="end">EDIÇÃO LIMITADA</text>
+  
+  <text x="80" y="650" font-family="'Space Grotesk', sans-serif" font-size="28" font-weight="700" fill="#111111">VANGUARD SERIES</text>
+  <text x="1120" y="650" font-family="'Space Mono', monospace" font-size="14" fill="#5F5E5A" text-anchor="end">CRIATIVIDADE TÁTIL [2024]</text>
+</svg>

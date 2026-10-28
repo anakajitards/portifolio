@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ANA CLARA KAJITA — Portfólio & TI</title>
+  <meta name="description" content="Portfólio acadêmico e pessoal de Ana Clara Kajita das Neves, estudante de TI focada em desenvolvimento web, HTML, CSS e React.">
+  <!-- Fontes Editoriais do Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ==============================================
+        HEADER / NAVEGAÇÃO SUPERIOR FIXA
+        ============================================== -->
+  <header class="site-header" id="header">
+    <div class="header-inner container">
+      <!-- Logotipo / Identificação Pessoal -->
+      <a href="#inicio" class="brand-logo" aria-label="Ir para o início">
+        <span class="brand-name">ANA CLARA KAJITA</span>
+        <span class="brand-sub">PORTFÓLIO ACADÊMICO</span>
+      </a>
+      <!-- Status e Indicador de Tempo Real -->
+      <div class="header-status hide-mobile">
+        <span class="status-indicator">
+          <span class="status-dot"></span>
+          <span class="status-text">DISPONÍVEL P/ OPORTUNIDADES</span>
+        </span>
+        <span class="status-divider">/</span>
+      </div>
+      <!-- Menu de Navegação Desktop -->
+      <nav class="nav-desktop" aria-label="Navegação Principal">
+        <ul class="nav-links">
+          <li><a href="#inicio" class="nav-link active"><span class="nav-index">01</span> Início</a></li>
+          <li><a href="#sobre" class="nav-link"><span class="nav-index">02</span> Sobre</a></li>
+          <li><a href="#projetos" class="nav-link"><span class="nav-index">03</span> Projetos</a></li>
+          <li><a href="#contato" class="nav-link"><span class="nav-index">04</span> Contato</a></li>
+        </ul>
+      </nav>
+      <!-- Botão Hambúrguer Minimalista (Mobile) -->
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Menu Mobile Suspenso (Drawer) -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <div class="drawer-header">
+      <span class="drawer-title">[MENU DE NAVEGAÇÃO]</span>
+      <button class="drawer-close" id="drawerClose" aria-label="Fechar menu">✕</button>
+    </div>
+    <ul class="drawer-links">
+      <li><a href="#inicio" class="drawer-link"><span class="drawer-num">01</span> Início</a></li>
+      <li><a href="#sobre" class="drawer-link"><span class="drawer-num">02</span> Sobre mim</a></li>
+      <li><a href="#projetos" class="drawer-link"><span class="drawer-num">03</span> Projetos</a></li>
+      <li><a href="#contato" class="drawer-link"><span class="drawer-num">04</span> Contato</a></li>
+    </ul>
+    <div class="drawer-footer">
+      <p class="drawer-meta">CAMPINAS - SP • 2026</p>
+      <a href="mailto:kajitinhakn@gmail.com" class="drawer-email">kajitinhakn@gmail.com</a>
+    </div>
+  </div>
+
+  <main>
+    <!-- ==============================================
+          1. SEÇÃO INÍCIO (HERO)
+          ============================================== -->
+    <section class="hero-section" id="inicio">
+      <div class="container hero-container">
+        <!-- Faixa Superior de Contexto -->
+        <div class="hero-meta-bar">
+          <div class="meta-item">
+            <span class="meta-label">SEÇÃO</span>
+            <span class="meta-val">[01 // APRESENTAÇÃO]</span>
+          </div>
+          <div class="meta-item hide-mobile">
+            <span class="meta-label">DISCIPLINA</span>
+            <span class="meta-val">TECNOLOGIA DA INFORMAÇÃO & DEV WEB</span>
+          </div>
+          <div class="meta-item hide-mobile">
+            <span class="meta-label">EDIÇÃO</span>
+            <span class="meta-val">VOL. 2026</span>
+          </div>
+        </div>
+        <!-- Título Editorial Marcante -->
+        <div class="hero-title-block">
+          <h1 class="hero-headline">
+            <span class="headline-row">DESENVOLVIMENTO</span>
+            <span class="headline-row indent-row">
+              <span class="ampersand">&</span> TECNOLOGIA
+            </span>
+            <span class="headline-row text-outlined">COM PROPÓSITO.</span>
+          </h1>
+        </div>
+        <!-- Linha de Declaração / Frase Curta -->
+        <div class="hero-statement-grid">
+          <div class="statement-lead">
+            <span class="pill-tag">PORTFÓLIO ACADÊMICO</span>
+            <p class="statement-text">
+              Estudante de Colégio Técnico em TI com foco em desenvolvimento web frontend, combinando conhecimento prático em HTML, CSS e React com dedicação ao aprendizado contínuo.
+            </p>
+          </div>
+          <div class="statement-actions">
+            <a href="#projetos" class="btn-editorial btn-primary">
+              <span class="btn-text">Ver Projetos Desenvolvidos</span>
+              <span class="btn-arrow">↓</span>
+            </a>
+            <a href="#contato" class="btn-editorial btn-secondary">
+              <span class="btn-text">Iniciar Conversa</span>
+              <span class="btn-arrow">→</span>
+            </a>
+          </div>
+        </div>
+        <!-- Grid Estrutural de Metadados -->
+        <div class="hero-info-grid">
+          <div class="info-cell">
+            <div class="cell-index">01.01</div>
+            <h2 class="cell-title">Identidade</h2>
+            <p class="cell-content">Ana Clara Kajita das Neves</p>
+            <span class="cell-sub">Estudante de TI & Desenvolvedora Frontend</span>
+          </div>
+          <div class="info-cell">
+            <div class="cell-index">01.02</div>
+            <h2 class="cell-title">Tecnologias</h2>
+            <ul class="cell-list">
+              <li>HTML5 & CSS3</li>
+              <li>React.js</li>
+              <li>Desenvolvimento Web</li>
+            </ul>
+          </div>
+          <div class="info-cell">
+            <div class="cell-index">01.03</div>
+            <h2 class="cell-title">Base & Operação</h2>
+            <p class="cell-content">Campinas - SP, Brasil</p>
+            <span class="cell-sub">Ensino Técnico & Projetos de TI</span>
+          </div>
+          <div class="info-cell">
+            <div class="cell-index">01.04</div>
+            <h2 class="cell-title">Objetivo</h2>
+            <p class="cell-content">Ingresso Acadêmico</p>
+            <span class="cell-sub">Portfólio focado na apresentação para faculdade</span>
+          </div>
+        </div>
+        <!-- Indicador de Rolagem Sutil -->
+        <div class="hero-scroll-indicator">
+          <a href="#sobre" class="scroll-link" aria-label="Rolar para Sobre Mim">
+            <span class="scroll-text">ROLAR PARA CONHECER</span>
+            <span class="scroll-line"></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+          2. SEÇÃO SOBRE MIM
+          ============================================== -->
+    <section class="section-editorial" id="sobre">
+      <div class="container">
+        <!-- Cabeçalho de Seção -->
+        <div class="section-header-bar">
+          <div class="section-tag-group">
+            <span class="section-tag">[02 // PERFIL & PRÁTICA]</span>
+            <span class="section-subtitle">SOBRE MIM</span>
+          </div>
+          <span class="section-index-right">FIG. & BIOGRAFIA</span>
+        </div>
+        <!-- Layout Assinatura: Foto + Conteúdo Narrativo -->
+        <div class="about-grid">
+          <!-- Coluna Visual / Espaço para Foto -->
+          <div class="about-visual-column">
+            <div class="photo-frame">
+              <div class="photo-header">
+                <span class="photo-badge">FIG. 01 — RETRATO</span>
+                <span class="photo-status">CAMPINAS - SP • 2026</span>
+              </div>
+              <div class="photo-wrapper">
+                <img src="assets/foto-perfil.svg" alt="Retrato de Ana Clara Kajita das Neves" class="about-photo" id="profileImage">
+              </div>
+              <div class="photo-caption">
+                <span class="caption-label">ARQUIVO:</span>
+                <span class="caption-text">Ana Clara Kajita, Estudante de TI</span>
+              </div>
+            </div>
+            <!-- Nota de Disponibilidade Rápida -->
+            <div class="about-sidebar-note">
+              <span class="note-bullet">•</span>
+              <p>Foco no desenvolvimento técnico e preparação para a vida acadêmica superior.</p>
+            </div>
+          </div>
+          <!-- Coluna de Texto Editorial & Personalidade -->
+          <div class="about-text-column">
+            <div class="about-lead-block">
+              <h2 class="about-lead-title">
+                Conectando lógica, código e interfaces funcionais através da Tecnologia da Informação.
+              </h2>
+            </div>
+            <div class="about-paragraphs">
+              <p class="about-body-text">
+                Olá! Sou <strong>Ana Clara Kajita das Neves</strong>, estudante de Tecnologia da Informação em colégio técnico em Campinas - SP. Minha trajetória na área começou com o fascínio por entender como as aplicações funcionam por trás das telas e se transformou em uma paixão prática pelo desenvolvimento web.
+              </p>
+              <p class="about-body-text">
+                Com conhecimentos consolidados em HTML, CSS e React, busco criar projetos estruturados, funcionais e com boa usabilidade. Este portfólio reúne minhas principais entregas e projetos práticos, documentando minha evolução técnica para o próximo passo da minha formação: a faculdade.
+              </p>
+            </div>
+            <!-- Fatos e Princípios -->
+            <div class="about-principles-grid">
+              <div class="principle-card">
+                <span class="principle-num">01</span>
+                <h3 class="principle-title">Formação</h3>
+                <p class="principle-desc">Ensino Técnico em TI, combinando teoria e aplicação em projetos reais.</p>
+              </div>
+              <div class="principle-card">
+                <span class="principle-num">02</span>
+                <h3 class="principle-title">Abordagem</h3>
+                <p class="principle-desc">Código limpo, estrutura organizada e dedicação à resolução de problemas.</p>
+              </div>
+              <div class="principle-card">
+                <span class="principle-num">03</span>
+                <h3 class="principle-title">Habilidades</h3>
+                <p class="principle-desc">HTML5, CSS3, React, JavaScript básico e publicação Web (Vercel).</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+          3. SEÇÃO PROJETOS (GALERIA VISUAL)
+          ============================================== -->
+    <section class="section-editorial" id="projetos">
+      <div class="container">
+        <!-- Cabeçalho de Seção -->
+        <div class="section-header-bar">
+          <div class="section-tag-group">
+            <span class="section-tag">[03 // PORTFÓLIO VISUAL]</span>
+            <span class="section-subtitle">PROJETOS DESENVOLVIDOS</span>
+          </div>
+          <span class="section-index-right">APLICAÇÕES WEB • 2024—2026</span>
+        </div>
+        <!-- Barra de Filtros -->
+        <div class="gallery-filter-bar">
+          <span class="filter-label">FILTRAR POR:</span>
+          <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">Todos [03]</button>
+            <button class="filter-btn" data-filter="web">Aplicações Web [03]</button>
+          </div>
+        </div>
+        <!-- Grid Editorial de Projetos -->
+        <div class="projects-editorial-grid">
+          <!-- PROJETO 01 -->
+          <article class="project-item project-featured" data-category="web">
+            <div class="project-card-inner">
+              <a href="https://sitemat-one.vercel.app" class="project-media-link" target="_blank" rel="noopener" aria-label="Ver projeto Sitemat">
+                <div class="project-media-wrapper">
+                  <img src="assets/projeto-1.svg" alt="Projeto Sitemat" class="project-image" loading="lazy">
+                  <span class="project-overlay-badge">Acessar Aplicação ↗</span>
+                </div>
+              </a>
+              <div class="project-info-row">
+                <div class="project-info-left">
+                  <div class="project-meta-line">
+                    <span class="project-index">01</span>
+                    <span class="project-category">[ APLICAÇÃO WEB ]</span>
+                    <span class="project-year">2025/2026</span>
+                  </div>
+                  <h3 class="project-title">
+                    <a href="https://sitemat-one.vercel.app" target="_blank" rel="noopener">Sitemat — Plataforma Web</a>
+                  </h3>
+                  <p class="project-desc">
+                    Projeto desenvolvido e hospedado na Vercel com foco em desenvolvimento web interativo e navegação intuitiva.
+                  </p>
+                </div>
+                <div class="project-info-right">
+                  <a href="https://sitemat-one.vercel.app" class="btn-link-editorial" target="_blank" rel="noopener">
+                    <span>Visitar Projeto</span>
+                    <span class="arrow-diag">↗</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJETO 02 -->
+          <article class="project-item project-half" data-category="web">
+            <div class="project-card-inner">
+              <a href="https://frback.vercel.app" class="project-media-link" target="_blank" rel="noopener" aria-label="Ver projeto FRBack">
+                <div class="project-media-wrapper">
+                  <img src="assets/projeto-2.svg" alt="Projeto FRBack" class="project-image" loading="lazy">
+                  <span class="project-overlay-badge">Acessar Aplicação ↗</span>
+                </div>
+              </a>
+              <div class="project-info-block">
+                <div class="project-meta-line">
+                  <span class="project-index">02</span>
+                  <span class="project-category">[ SISTEMA / FRONTEND ]</span>
+                  <span class="project-year">2025/2026</span>
+                </div>
+                <h3 class="project-title">
+                  <a href="https://frback.vercel.app" target="_blank" rel="noopener">FRBack — Aplicação Web</a>
+                </h3>
+                <p class="project-desc">
+                  Aplicação frontend com estrutura responsiva, aplicando conceitos práticos de estilização e organização de componentes.
+                </p>
+                <div class="project-link-row">
+                  <a href="https://frback.vercel.app" class="btn-link-editorial" target="_blank" rel="noopener">
+                    <span>Visitar Aplicação</span>
+                    <span class="arrow-diag">↗</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJETO 03 -->
+          <article class="project-item project-half" data-category="web">
+            <div class="project-card-inner">
+              <a href="https://tccatualizacao.vercel.app" class="project-media-link" target="_blank" rel="noopener" aria-label="Ver projeto TCC Atualização">
+                <div class="project-media-wrapper">
+                  <img src="assets/projeto-3.svg" alt="Projeto TCC Atualização" class="project-image" loading="lazy">
+                  <span class="project-overlay-badge">Acessar Projeto ↗</span>
+                </div>
+              </a>
+              <div class="project-info-block">
+                <div class="project-meta-line">
+                  <span class="project-index">03</span>
+                  <span class="project-category">[ PROJETO DE TCC ]</span>
+                  <span class="project-year">2026</span>
+                </div>
+                <h3 class="project-title">
+                  <a href="https://tccatualizacao.vercel.app" target="_blank" rel="noopener">TCC Atualização — Sistema de Conclusão de Curso</a>
+                </h3>
+                <p class="project-desc">
+                  Projeto prático de conclusão do curso técnico em TI, integrando React e boas práticas de desenvolvimento frontend.
+                </p>
+                <div class="project-link-row">
+                  <a href="https://tccatualizacao.vercel.app" class="btn-link-editorial" target="_blank" rel="noopener">
+                    <span>Acessar TCC</span>
+                    <span class="arrow-diag">↗</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+          4. SEÇÃO CONTATO & CONEXÃO
+          ============================================== -->
+    <section class="section-editorial contact-section" id="contato">
+      <div class="container">
+        <!-- Cabeçalho de Seção -->
+        <div class="section-header-bar">
+          <div class="section-tag-group">
+            <span class="section-tag">[04 // DIÁLOGO & CONEXÃO]</span>
+            <span class="section-subtitle">CONTATO</span>
+          </div>
+          <span class="section-index-right">VAMOS CONVERSAR</span>
+        </div>
+        <div class="contact-main-grid">
+          <!-- Bloco Principal de Chamada -->
+          <div class="contact-headline-col">
+            <h2 class="contact-headline">
+              Vamos conversar sobre tecnologia e novos projetos?
+            </h2>
+            <p class="contact-subtext">
+              Estou sempre disponível para trocar ideias sobre desenvolvimento web, apresentar meus projetos acadêmicos ou conversar sobre oportunidades na área de TI.
+            </p>
+            <!-- Bloco de E-mail Direto com 1-Click Copy -->
+            <div class="contact-email-box">
+              <span class="email-box-label">CANAL DIRETO DE CONTATO</span>
+              <div class="email-action-row">
+                <a href="mailto:kajitinhakn@gmail.com" class="contact-email-link" id="emailLink">
+                  kajitinhakn@gmail.com
+                </a>
+                <button type="button" class="btn-copy-email" id="copyEmailBtn" aria-label="Copiar endereço de e-mail">
+                  <span id="copyBtnText">Copiar E-mail</span>
+                </button>
+              </div>
+              <span class="email-response-time">Localização: Campinas - SP • Resposta em até 24h.</span>
+            </div>
+          </div>
+          <!-- Coluna de Redes Sociais e Canais -->
+          <div class="contact-social-col">
+            <div class="social-header">
+              <span class="social-header-title">REDES & PRESENÇA ONLINE</span>
+            </div>
+            <div class="social-links-grid">
+              <a href="https://github.com/anakajitards" class="social-card" target="_blank" rel="noopener">
+                <div class="social-card-top">
+                  <span class="social-index">01</span>
+                  <span class="social-arrow">↗</span>
+                </div>
+                <div class="social-card-bottom">
+                  <span class="social-network">GitHub</span>
+                  <span class="social-handle">@anakajitards</span>
+                </div>
+              </a>
+              <a href="https://instagram.com/anakajitas" class="social-card" target="_blank" rel="noopener">
+                <div class="social-card-top">
+                  <span class="social-index">02</span>
+                  <span class="social-arrow">↗</span>
+                </div>
+                <div class="social-card-bottom">
+                  <span class="social-network">Instagram</span>
+                  <span class="social-handle">@anakajitas</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==============================================
+        RODAPÉ EDITORIAL / COLOPHON
+        ============================================== -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <span class="footer-logo">ANA CLARA KAJITA</span>
+        <p class="footer-copyright">
+          © 2026 Ana Clara Kajita das Neves. Todos os direitos reservados.
+        </p>
+      </div>
+      <div class="footer-center hide-mobile">
+        <span class="footer-colophon">
+          PORTFÓLIO ACADÊMICO DE TI • CAMPINAS - SP
+        </span>
+      </div>
+      <div class="footer-right">
+        <a href="#inicio" class="back-to-top" aria-label="Voltar ao início">
+          <span>VOLTAR AO TOPO</span>
+          <span class="top-arrow">↑</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
